@@ -17,3 +17,5 @@ print(exp1)
 '''#bool
 exp2 = bool(input("enter eqn?"))
 print(exp2)'''
+
+

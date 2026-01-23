@@ -1,56 +1,73 @@
-# if statement
-a = 19
-a= int(input("enter your desired number "))
-if a <20 :
-    print( "a is less thn condition")
+# # if statement
+# a = 19
+# a = int(input("enter your desired number "))
+# if a <20 :
+#     print( "a is less thn condition")
 
-print("thank u") # this will execute always
+# print("thank u") # this will execute always
 
-#if-else statement
+# #if-else statement
 
-b = input("enter a string ")
-if "a" in b:
-    print(" memeber is present")
-else :
-    print("absent")
-# 2nd
-grades = int(input("enter grade :"))
-if grades >=75:
-    print("Eligible for examination")
-else:
-    print("Not Eligible for examination")
+# b = input("enter a string ")
+# if "a" in b:
+#     print(" memeber is present")
+# else :
+#     print("absent")
+# # 2nd
+# grades = int(input("enter grade :"))
+# if grades >=75:
+#     print("Eligible for examination")
+# else:
+#     print("Not Eligible for examination")
 
-#if-elif-else statemnet
+# #if-elif-else statemnet
 
-marks = float(input("enter your marks :"))
+# marks = float(input("enter your marks :"))
 
-if marks >= 90 :
-    print("grade A")
-elif marks >= 80 and marks <90:
-    print("grade B")
-elif marks >=70 and marks < 80:
-    print("grade C")
-else:
-    print("grade D")
+# if marks >= 90 :
+#     print("grade A")
+# elif marks >= 80 and marks <90:
+#     print("grade B")
+# elif marks >=70 and marks < 80:
+#     print("grade C")
+# else:
+#     print("grade D")
 
-# nested if
+# # nested if
 
-marks =87
-if marks >= 70:
-    print("you can have sweets")
-    if marks >= 85:
-        print("you can have mobile")
-        if marks >= 90:
-            print("you can have a trip")
-else:
-    print("you can not have sweets")
+# marks =87
+# if marks >= 70:
+#     print("you can have sweets")
+#     if marks >= 85:
+#         print("you can have mobile")
+#         if marks >= 90:
+#             print("you can have a trip")
+# else:
+#     print("you can not have sweets")
 
-#short hand if statement
+# #short hand if statement
 
-number = 56
-if number >= 50 : print("more than half")
+# number = 56
+# if number >= 50 : print("more than half")
 
-#short hand if-else statement
+# #short hand if-else statement
 
-num = 90
-print("more than 80") if num >= 80 else print("less than 80")
+# num = 90
+# print("more than 80") if num >= 80 else print("less than 80")
+
+## QUESTIONS
+#1.Check if a number is positive; print “Positive” if true.
+# num=int(input("Enter a number:"))
+# if num>0:
+#     print("This is a Positive")
+# else: print("Not a positive number")
+
+#2.Given an age, print “Adult” if age ≥ 18.
+# age=int(input("Enter age:"))
+# if age>=18:
+#     print("You are an adult")
+# else: 
+#     print("Not an adult")
+#3. If the string contains “python”, print “Found”.
+print=str("Enter a string:")
+if print

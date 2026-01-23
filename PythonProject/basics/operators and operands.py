@@ -3,7 +3,7 @@ print(19%4)
 ''' for power to any base'''
 print(5**4)
 ''' for getting quotient we use floor divion'''
-print(5.0//4.0)
+print(9.3//4.0)
 
 '''comparison opeerators'''
 
@@ -29,28 +29,29 @@ print(x)
 x +=4
 print(x)
 # x is now 8
-x-=4
-print(x)
+b=0
+b-=2
+print(b)
 
 x *=4
 print(x)
 
 
 # binary number
-print(bin(123))
+print(bin(-123))
 print(bin(10))
 
 
 a = 15
-b = 12
+b = 16
 
 print( a & b)
 
 
 
+#Check if a number is even or odd using the modulo operator (%).
 
 
-
-
-
+n =int(input("Enter a number: "))
+print("even " + str(not bool(n % 2)))
 
