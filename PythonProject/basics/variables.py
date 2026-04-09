@@ -7,7 +7,7 @@ print(a)
 if
 Name = "hey how r u"
 print(name)
-
+Name_error ="hey" -- allowed
 error as n is different from wht declared
 
 2. no spaces only underscores
